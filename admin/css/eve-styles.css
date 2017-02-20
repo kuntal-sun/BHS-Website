@@ -184,7 +184,7 @@ img.expand { width: 24em; margin: 0; }
 /*-------------------------------------------*\
 	No borders and background for form-tables
 \*-------------------------------------------*/
-.form th, .form td {border:none; background:none; padding: 0.75em 0;}
+.form th, .form td {border:none; background:none; }
 .form tbody tr:nth-of-type(odd){background:none;}
 /*------------------------------------*\
 	hr with image (leaf)

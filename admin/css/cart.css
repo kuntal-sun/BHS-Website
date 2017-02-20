@@ -1,8 +1,8 @@
 
-.grid-12 grid grey.product-thumb {
+.product-thumb {
 	float: left;
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 120px;
 	margin-right: 10px;
 }
 .grid-12 grid grey .product-content{
@@ -22,9 +22,11 @@
 }
 
 .shopping-cart{
-	
+	position:absolute;
+	top:340px;
+	right:25px;
 	width: 30%;
-    float:right;
+    float:left;
 	background: #F0F0F0;
 	padding: 10px;	
 	border: 1px solid #DDD;
@@ -34,13 +36,13 @@
 .shopping-cart h2 {
 	background: #E2E2E2;
 	padding: 4px;
-	font-size: 14px;
+	font-size: 18px;
 	margin: -10px -10px 5px;
 	color: #707070;
 }
 
 .shopping-cart h3,.view-cart h3 {
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -49,13 +51,13 @@
 }
 .shopping-cart .cart-itm, .view-cart .cart-itm{
 	border-bottom: 1px solid #DDD;
-	font-size: 11px;
+	font-size: 13px;
 	font-family: arial;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
 .shopping-cart .remove-itm, .view-cart .remove-itm{
-	font-size: 14px;
+	font-size: 12px;
 	float: right;
 	background: #D5D5D5;
 	padding: 4px;
@@ -73,16 +75,22 @@
 
 .check-out-txt{
 	float:right;
+	
+}
+.check-out-txt5{
+	float:left;
+	
 }
 
 /*** view cart **/
 .view-cart{
 	width: 100%;
 	float:left;
-	background: #F0F0F0;
+	background: white;
 	padding: 10px;	
 	border: 1px solid #DDD;
 	border-radius: 5px;
+	margin-bottom: 5px;
 }
 .view-cart .p-price{
 	float: right;
@@ -91,3 +99,55 @@
 	font-weight: bold;
 }
 .view-cart .product-info{width:60%;}
+
+.final-cart{
+	position:absolute;
+	top:200px;
+	right:25px;
+	width: 30%;
+    float:left;
+	background: #F0F0F0;
+	padding: 10px;	
+	border: 1px solid #DDD;
+	border-radius: 5px;
+
+}
+.final-cart h2 {
+	background: #E2E2E2;
+	padding: 4px;
+	font-size: 18px;
+	margin: -10px -10px 5px;
+	color: #707070;
+}
+
+.final-cart h3,.view-cart h3 {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+.final-cart ol{
+	padding: 1px 0px 0px 15px;
+}
+.final-cart .cart-itm, .view-cart .cart-itm{
+	border-bottom: 1px solid #DDD;
+	font-size: 13px;
+	font-family: arial;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.final-cart .remove-itm, .view-cart .remove-itm{
+	font-size: 12px;
+	float: right;
+	background: #D5D5D5;
+	padding: 4px;
+	line-height: 8px;
+	border-radius: 3px;
+}
+.final-cart .remove-itm:hover, .view-cart .remove-itm:hover{
+	background: #C4C4C4;
+}
+.final-cart .remove-itm a, .view-cart .remove-itm a{
+	color: #888;
+	text-shadow: 1px 1px 1px #ECECEC;
+	text-decoration:none;
+}
